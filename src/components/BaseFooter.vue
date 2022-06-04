@@ -83,6 +83,26 @@
 
     </div>
 
+    <div class="footer__social">
+
+      <button>
+        SIGN-UP NOW!
+      </button>
+
+      <div class="social">
+        <span>FOLLOW US</span>
+
+        <img src="../assets/img/footer-facebook.png" alt="">
+        <img src="../assets/img/footer-twitter.png" alt="">
+        <img src="../assets/img/footer-youtube.png" alt="">
+        <img src="../assets/img/footer-pinterest.png" alt="">
+        <img src="../assets/img/footer-periscope.png" alt="">
+
+
+      </div>
+
+    </div>
+
   </footer>
 </template>
 
@@ -168,6 +188,45 @@ export default {
     }
 
     // fine footer info
+
+    //social
+
+    &__social{
+      background-color: #303030;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      height: 12.5rem;
+
+      button{
+        color: white;
+        background-color: inherit;
+        border: 2px solid #0282f9;
+        font-size: 1.25rem;
+        padding: 1.25rem;
+      }
+
+      .social{
+
+        display: flex;
+        gap: 1.25rem;
+        align-items: center;
+
+        span{
+          color: #0282f9;
+          font-size: 1.25rem;
+        }
+
+        img{
+          height: 30px;
+          width: auto;
+        }
+      }
+
+
+    }
+
+    //fine social
 
 
 
