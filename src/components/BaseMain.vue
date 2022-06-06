@@ -1,29 +1,31 @@
 <template>
 
-    
-    <jumbotron/>
-    
-    <section class="comics">
+    <main>
 
-        <ul class="products__list">
-        <li v-for="(product, index) in products" :key="index">
-            <CardProduct :image="product.thumb" :title="product.series"/>
-        </li>
-    </ul>
+        <section class="jumbotron"></section>
+            
+        <section class="comics">
 
-    </section>
+            <ul class="products__list">
+                <li v-for="(product, index) in products" :key="index">
+                    <CardProduct :image="product.thumb" :title="product.series"/>
+                </li>
+            </ul>
+
+        </section>
+
+    </main>
+    
 
 </template>
 
 <script>
 
-import jumbotron from '../components/jumbotron.vue';
 import CardProduct from '../components/CardProduct.vue';
 
 export default {
     name: 'BaseMain',
     components: {
-        jumbotron,
         CardProduct,
     },
     data(){

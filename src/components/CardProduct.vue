@@ -1,7 +1,7 @@
 <template>
   <div class="product">
     <img :src="image" :alt="title">
-    <h3>{{series}}</h3>
+    <h3>{{title}}</h3>
   </div>
 </template>
 
@@ -9,7 +9,7 @@
 export default {
     name: 'CardProduct',
     props: {
-        series: String,
+        title: String,
         image: {
             type: String,
             default: 'https://www.fidoo.com/wp-content/uploads/2020/02/placeholder.png'
@@ -22,8 +22,5 @@ export default {
 .product {
     background: #fff;
     padding: 15px;
-    img {
-        width: 100%;
-    }
 }
 </style>
