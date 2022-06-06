@@ -121,16 +121,25 @@ export default {
 
     .comics{
          margin: auto;
+         background-color: #1c1c1c;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding: 3.125rem 0; 
     }
 
     .products__list{
         width: 70%;
         display: flex;
         flex-wrap: wrap;
+        gap: 2.5rem;
         
     }
 
     li {
+        color: white;
+        list-style: none;
+        text-align: center;
     }
     
 </style>

@@ -20,9 +20,12 @@ export default {
 
 <style lang="scss" scoped>
 .product {
-    background: #fff;
     padding: 15px;
     width: 12.5rem;
     margin: 0;
+
+    h3{
+        margin-top: .3125rem;
+    }
 }
 </style>
