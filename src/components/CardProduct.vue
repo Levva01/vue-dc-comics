@@ -22,5 +22,7 @@ export default {
 .product {
     background: #fff;
     padding: 15px;
+    width: 12.5rem;
+    margin: 0;
 }
 </style>

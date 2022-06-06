@@ -118,5 +118,19 @@ export default {
         height: 31.25rem;
         background-image: url("../assets/img/jumbotron.jpg");
     }
+
+    .comics{
+         margin: auto;
+    }
+
+    .products__list{
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    li {
+    }
     
 </style>
